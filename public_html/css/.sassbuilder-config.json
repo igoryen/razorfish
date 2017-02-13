@@ -1,0 +1,11 @@
+{
+    "project_path": "C:/aaa/ig/razorfish-test/public_html/css",
+    "output_path": "C:/aaa/ig/razorfish-test/public_html/css",
+    "options": {
+        "cache":         true,
+        "debug":         true,
+        "line-comments": true,
+        "line-numbers":  true,
+        "style":         "nested"
+    }
+}

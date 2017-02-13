@@ -1,0 +1,384 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\000032}}
+body {
+  background-color: #e7cfbb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800; }
+
+/* ======== PERSON ================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\000039}}
+h4 {
+  color: #8D8882; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000313}}
+.person {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 50%;
+  box-shadow: #b7855a 1px 1px 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000322}}
+.theme {
+  background-image: url("../img/background.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  line-height: 180px;
+  border-radius: 5px 5px 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000331}}
+.info-group {
+  margin: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000334}}
+.person-image {
+  background-image: url("../img/face2.png");
+  width: 27%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 95px;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000343}}
+.person-text {
+  float: right;
+  display: inline-block;
+  width: 69%;
+  padding: 0.7em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000349}}
+.person-name {
+  font-size: 1.3em;
+  color: #575247; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000353}}
+.person-praise {
+  font-size: 0.9em;
+  color: #8D8882;
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000358}}
+.person-stats {
+  background-color: white;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000362}}
+.p-stats {
+  display: inline-block;
+  background-color: #F6F1ED;
+  font-weight: 700;
+  width: 32.6%;
+  padding: 0.7em 0;
+  text-align: center;
+  color: #B3AAA2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000370}}
+  .p-stats:hover {
+    color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000373}}
+  .p-stats:nth-child(1) {
+    border-radius: 0 0 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000376}}
+  .p-stats:nth-child(3) {
+    border-radius: 0 0 5px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000380}}
+#icon-views {
+  background-image: url(../img/glyphicons-halflings.png);
+  background-position: -108px -136px;
+  background-size: 543px auto;
+  display: inline-block;
+  line-height: 22px;
+  width: 22px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000388}}
+#views, #msg, #likes {
+  padding-left: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\0000391}}
+#icon-msg {
+  background-image: url(../img/glyphicons-halflings.png);
+  background-position: -108px -81px;
+  background-size: 543px auto;
+  display: inline-block;
+  line-height: 22px;
+  width: 22px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003100}}
+#icon-likes {
+  background-image: url(../img/glyphicons-halflings.png);
+  background-position: -108px 3px;
+  background-size: 543px auto;
+  display: inline-block;
+  line-height: 22px;
+  width: 22px; }
+
+/* ====== REPORT ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003109}}
+.container {
+  border-radius: 5px;
+  box-shadow: #b7855a 1px 1px 6px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003118}}
+.content {
+  box-shadow: #b7855a 1px 1px 6px;
+  border-radius: 0 0 5px 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003124}}
+#tabs div {
+  list-style-type: none;
+  background-color: #D19E7F;
+  border-radius: 5px 5px 0 0;
+  box-shadow: #b7855a -5px -3px 8px -5px, #b7855a 5px  -5px 8px -5px;
+  color: #cb996e;
+  display: inline-block;
+  padding: 4% 0 4%;
+  text-align: center;
+  width: 49.6%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003134}}
+  #tabs div:nth-child(2) {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003138}}
+  #tabs div a {
+    text-decoration: none;
+    color: white;
+    padding: 1em 2.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003143}}
+  #tabs div.selected {
+    background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003146}}
+    #tabs div.selected a {
+      color: #8A8178; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003154}}
+div.tabContent {
+  height: 511px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003156}}
+  div.tabContent.hide {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003162}}
+#graph {
+  background-color: white;
+  color: #cb996e;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003167}}
+#report {
+  background-color: white;
+  color: #cb996e;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003173}}
+.stats-block {
+  display: inline-block;
+  width: 32.6%;
+  background-color: #F5F0EC;
+  padding: 0 0 4%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003180}}
+.button-section {
+  background-color: #776B5D;
+  text-align: center;
+  border-radius: 0 0 5px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003184}}
+  .button-section a {
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003189}}
+.button {
+  background-color: #776B5D;
+  display: inline-block;
+  padding: 4% 0;
+  width: 32.6%;
+  font-size: 0.7em;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003197}}
+  .button .button-image {
+    background-size: 96px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38px;
+    line-height: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003204}}
+  .button.upload {
+    border-radius: 0 0 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003206}}
+    .button.upload .button-image {
+      background-image: url(../img/sprites.png);
+      background-position: 0px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003212}}
+  .button.share .button-image {
+    background-image: url(../img/sprites.png);
+    background-position: -37px 0px;
+    width: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003219}}
+  .button.backup {
+    border-radius: 0 0 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003221}}
+    .button.backup .button-image {
+      background-image: url(../img/sprites.png);
+      background-position: -58px 1px;
+      line-height: 25px;
+      background-size: 91px auto;
+      width: 34px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003229}}
+  .button:hover {
+    background-color: #64584C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003233}}
+.button-lable {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003240}}
+.data-type-color {
+  font-size: 1px;
+  margin-bottom: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003243}}
+  .data-type-color.audio {
+    background-color: #4DAF7C; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003247}}
+  .data-type-color.video {
+    background-color: #E35935; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003251}}
+  .data-type-color.photo {
+    background-color: #EAC85D; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003256}}
+.main-container {
+  padding: 4% 0;
+  text-transform: uppercase;
+  color: #8D8882; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003261}}
+.data-type {
+  color: #A29D99; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003264}}
+.data-percent {
+  color: #8B7E71;
+  font-size: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003269}}
+#total-files {
+  text-transform: none;
+  color: red;
+  font-size: 0.8em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003275}}
+svg {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003279}}
+div.tabContent {
+  height: 490px;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003283}}
+.stats-blocks {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003288}}
+#data-graph {
+  text-transform: none; }
+
+@media only screen and (max-width: 780px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003295}}
+  .person-image {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003301}}
+  .person-text {
+    width: auto;
+    float: none;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003305}}
+    .person-text .person-name {
+      text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003309}}
+  .person-praise {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003312}}
+  .p-stats {
+    width: 32.1%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003318}}
+  #tabs div a {
+    font-size: 14px;
+    padding: 1px 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003324}}
+  .stats-block {
+    width: 32%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003327}}
+  .data-type {
+    font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003330}}
+  .data-percent {
+    font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003333}}
+  .button {
+    width: 32%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003335}}
+    .button .button-lable {
+      font-size: 0.75em; } }
+@media only screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003343}}
+  .person-image {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003346}}
+  .p-stats {
+    width: 31.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003350}}
+  #icon-views, #icon-msg, #icon-likes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003358}}
+  #tabs div a {
+    font-size: 14px;
+    padding: 1px 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003363}}
+  .stats-block {
+    width: 31%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003366}}
+  .data-type {
+    font-size: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003369}}
+  .data-percent {
+    font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003372}}
+  .button {
+    width: 31%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/aaa\/ig\/razorfish-test\/public_html\/css\/razorfish\.scss}line{font-family:\00003374}}
+    .button .button-lable {
+      display: none;
+      padding: 12px 0px; } }
+
+/*# sourceMappingURL=razorfish.css.map */

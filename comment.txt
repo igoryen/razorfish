@@ -1,0 +1,36 @@
+1. This is the XML namespace for the svg elements
+2. data:           an array of numbers to chart, one for each wedge of the pie.
+    width, height: the size of the SVG graphic (in pixels)
+    cx,cy:         the center of the pie
+    r:             the radius of the pie
+    colors:        an array of HTML color strings, one for each wedge
+    labels:        an array of labels to appear in the legend, one for each wedge
+    lx,ly:         the upper left corner of the chart legend.
+4. Create an <svg> element, and specify pixel size and user coordinates.
+5. Add up the data so we know how big the pie is.
+6. Figure out how big each slice of pie is. Angles in radians
+7. Loop through each slice of the pie.
+8. This is where the wedge ends
+9. Compute the two points where our wedge intersects the circle.
+    These formulas are chosen so that an angle of 0 is at 12 o'clock.
+10. A flag for angles larger than half a circle.
+    It is required by the SVG arc drawing component.
+11. We describe a wedge with an <svg:path> element.
+    Notice that we create this with createElementNS()
+12. This is a string. It holds the path details.
+    A = elliptical Arc
+    C = curveto
+    H = horizontal lineto
+    L = lineto
+    M = moveto
+    Q = quadratic Bézier curve
+    S = smooth curveto
+    T = smooth quadratic Bézier curveto
+    V = vertical lineto
+    Z = closepath
+13. Now setting attributes to the <svg:path> element.
+14. Set this path.
+15. Set the color of the wedge.
+16. Outline the wedge in black.
+17. The width of the stroke.
+18. Add the wedge to the path.
